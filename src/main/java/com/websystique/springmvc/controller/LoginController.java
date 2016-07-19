@@ -13,8 +13,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.websystique.springmvc.model.LoginForm;
 import com.websystique.springmvc.service.LoginService;
 
+
+
 @Controller
-@RequestMapping("/loginform")
+@RequestMapping("loginform")
 public class LoginController {
 	
 	@Autowired
